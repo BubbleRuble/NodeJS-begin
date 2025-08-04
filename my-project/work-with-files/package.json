@@ -1,10 +1,9 @@
 {
-  "name": "work-with-files",
+  "name": "works-with-files",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node app",
     "dev": "nodemon app"
   },
@@ -13,5 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "nanoid": "^5.1.5"
   }
 }
